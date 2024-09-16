@@ -24,4 +24,4 @@ jobs:
         run: gcloud config set run/region asia-northeast1
 
       - name: Update notifier
-        run: ./setup.sh slack ./google-cloud-notifier.yml -t slack/slack.json -s projects/387664188827/secrets/slack-webhook-url
+        run: ./setup.sh slack ./google-cloud-notifier.yml -t slack/slack.json -s projects/758924990753/secrets/slack-webhook-url
